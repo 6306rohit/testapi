@@ -1,0 +1,51 @@
+{
+	"info": {
+		"_postman_id": "153ac309-e494-453f-abbf-074c8a75d655",
+		"name": "category",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "api",
+			"item": [
+				{
+					"name": "first",
+					"id": "7081d725-b29b-441e-8b71-6bb14da93dd3",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "https://app.healthcrad.com/api/index.php/api/Mobile_app/doctor_getshift"
+					},
+					"response": []
+				}
+			],
+			"id": "5d2ddf42-fb76-459f-bb17-08cb74f9b9d3"
+		},
+		{
+			"name": "http://localhost:3000/category/",
+			"id": "730942d7-d8c5-4739-9a2f-325377bff570",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"name\":\"ajay\",\r\n    \"location\": \"2\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:3000/category/",
+				"description": "category api"
+			},
+			"response": []
+		}
+	]
+}
